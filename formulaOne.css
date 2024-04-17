@@ -20,7 +20,7 @@
 
 .Container{
 background-color: rgb(255, 255, 255);
-height: 411vh;
+height: 611vh;
 width: 100%;
 
 }
@@ -145,7 +145,7 @@ li{
     cursor: pointer;
 }
 .signin{
-    background-color: rgba(71, 66, 66, 0.733);
+    background-color: rgba(0, 0, 0, 0.733);
     margin-left: 11px;
     width: 85px;
     align-items: center;
@@ -1420,4 +1420,98 @@ background-color: #fb0000;
     padding-top: 9px;
     margin-left: 15px;
     color: black;
+}
+
+
+
+.moreNewsMainContainer{
+    background-image: url(assests/bgf1.jpg);
+    width: 100%;
+    height: 135vh;
+    background-color: #000;
+margin-top: 191px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.moreNewsContainer{
+    width: 80%;
+    height: 159vh;
+    margin-top: -131px;
+}
+
+.moreNewstitleContainer{
+    width: 100%;
+   height: 60px;
+   background-color: #ffffff;
+
+}
+.moreNewstitleContainer h5{
+    font-family: f1Bold;
+    font-size: 25px;
+    padding-top: 11px;
+}
+.moreNewstitleContainer span{
+    font-family: f1Regular;
+    color: red;
+}
+.moreNewContainterLine{
+    width: 100%;
+    height: 12px;
+    background-color: #000000;
+}
+
+.moreNewsContainerNews{
+    width: 100%;
+    height: 144vh;
+    margin-top: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.moreNewsContainerNews1{
+    width: 48%;
+    height: 365px;
+    border-bottom-right-radius: 21px;
+    border-bottom-left-radius: 21px;
+}
+.moreNewssContainerimg{
+    width: 100%;
+    height: 49vh;
+    overflow: hidden;
+}
+.moreNewssContainerimg img{
+
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s;
+}
+.moreNewsContainerNews1:hover img{
+    transform: scale(1.1);
+}
+.moreNewssContainerContant{
+    width: 100%;
+    height: 27%;
+    background-color: #ffffff;
+    border-bottom-right-radius: 21px;
+    border-bottom-left-radius: 21px;
+}
+
+.moreNewssContainerContant h5{
+    font-family: f1Regular;
+    font-size: 11px;
+    margin-left: 11px;
+    padding-top: 11px;
+}
+.moreNewssContainerContant p{
+    font-family: f1Regular;
+    font-size: 12px;
+    margin-left: 11px;
+    padding-top: 11px;
+}
+.moreNewsContainerNews1:hover .moreNewssContainerContant{
+    background-color: black;
+    color: white;
+
 }
