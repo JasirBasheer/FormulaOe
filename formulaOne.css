@@ -1,0 +1,1423 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    src: url(fonts/Formula1-Bold_web_0.ttf);
+    font-family: f1Bold;
+}
+@font-face {
+    src: url(fonts/Formula1-Regular_web_0.ttf);
+    font-family: f1Regular;
+}
+@font-face {
+    src: url(fonts/Formula1-Wide_web_0.ttf);
+    font-family: f1Wideweb;
+}
+
+.Container{
+background-color: rgb(255, 255, 255);
+height: 411vh;
+width: 100%;
+
+}
+.header{
+    width: 100%;
+    height: 51px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+}
+
+.fiaHlogo{
+    width: 3%;
+    margin-left: 26px;
+}
+.Vline{
+
+        border-left: 1px solid rgba(122, 136, 122, 0.781);
+        height: 27px;
+        margin-left: 17px;
+      
+    
+}
+.Vline1{
+
+        border-left: 1px solid rgba(122, 136, 122, 0.781);
+        height: 27px;
+        margin-left: 11px;
+      
+    
+}
+.Vline2{
+
+        border-left: 1px solid rgba(122, 136, 122, 0.781);
+        height: 27px;
+        margin-left: 11px;
+      
+    
+}
+
+
+.F1HeaderContant1{
+    margin-left: 11px;
+    display: flex;
+    align-items: center;
+    font-family: f1Bold;
+    font-size: 13px;
+    cursor: pointer;
+    color: #858080;
+}
+
+.F1HeaderContant1 h4 {
+    margin-left: 21px; 
+}
+
+.f1h1{
+    color: #000;
+}
+.f1h2:hover{
+    color: #000;
+}
+.f1h3:hover{
+    color: #000;
+}
+.f1h4:hover{
+    color: #000;
+}
+
+
+.Pages{
+    margin-left:111px;
+}
+
+ul{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+    position: relative;
+    margin-left: 21px;
+    font-family: f1Regular;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    color: rgba(51, 48, 44, 0.726);
+    cursor: pointer;
+}
+
+
+.Pages li::after{
+    content: '';
+    position: absolute;
+    background-color: rgba(233, 3, 3, 0.849);
+    height: 3px;
+    width:0;
+    left: 0;
+    bottom: -8px;
+
+   
+}
+
+.Pages li:hover::after{
+    width: 100%;
+    color: rgba(233, 3, 3, 0.849);
+}
+.Pages li:hover{
+    color: rgba(233, 3, 3, 0.849);
+}
+
+.f1tv{
+    margin-left: 11px;
+    width: 85px;
+    cursor: pointer;
+}
+.signin{
+    background-color: rgba(71, 66, 66, 0.733);
+    margin-left: 11px;
+    width: 85px;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    color: aliceblue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.subscribe{
+    background-color:#ff0e0e;
+    margin-left: 11px;
+    width: 90px;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    color: aliceblue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.signin p{
+    margin-top: 11px;
+    margin-left: 12px;
+    font-family: f1Regular;
+    font-size: 11px;
+}
+.subscribe p{
+    margin-top: 11px;
+    margin-left: 12px;
+    font-family: f1Regular;
+    font-size: 11px;
+}
+.userLogo{
+    width: 11px;
+    margin-right: 5px;
+}
+
+.secondHeader{
+width: 100%;
+height: 71px;
+top: 50px;
+background: #ff0e0e;
+position: fixed;
+display: flex;
+justify-content: center;
+align-items: center;
+
+z-index: 1000; 
+
+
+}
+
+
+.triangle{
+    display: block;
+    height: 0;
+    width: 0;
+    border: 9px solid transparent;
+    border-top-color: #ff0e0e;
+    position: absolute;
+    transform: rotate(180deg);
+    left: calc(50% - 515px);
+    bottom: 68px;
+}
+
+
+
+
+.SecondHF1img{
+    width: 126px;
+    margin-right: 1100px;
+    position: absolute;
+}
+.Catogeries{
+    align-items: center;
+    display: flex;
+}
+
+.Catogeries div {
+    margin-left: 38px;
+    cursor: pointer;
+    font-family: f1Regular;
+    font-size: 13px;
+    color: aliceblue;
+    height: 72px;
+    align-items: center;
+    display: flex;
+    transition: all 0.3s;
+    transition: background-color 0.5s ease, opacity 0.5s ease; 
+}
+
+.Catogeries div:hover {
+    background-color: #000000;
+    opacity: 0.8;
+}
+
+
+
+/* LATEST HOVER */
+
+
+.LatestHhover {
+    display: none;
+    opacity: 0;
+    width: 100%;
+    height: 100vh;
+    background:  #000000ee;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    transition: opacity 1.5s ease;
+}
+
+.LatestHhovercontainer {
+    background:  #00000000;
+    width: 80%;
+    height: 81vh;
+
+
+}
+
+.LatestHhover.show {
+    display: flex;
+    opacity: 1;
+}
+
+.LatestHhovercontainerPages{
+    width: 100%;
+    height: 37px;
+}
+
+
+.LatestHhovercontainerPages ul{
+    height: 41px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.LatestHhovercontainerPages li{
+    list-style: none;
+    position: relative;
+    margin-left: 21px;
+    font-family: f1Regular;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+
+.LatestHhovercontainerPages li::after{
+    content: '';
+    position: absolute;
+    background-color: rgba(233, 3, 3, 0.849);
+    height: 3px;
+    width:0;
+    left: 0;
+    bottom: -5px;
+   
+}
+
+.LatestHhovercontainerPages li:hover::after{
+    width: 100%;
+    color: rgba(233, 3, 3, 0.849);
+}
+
+.LatestHhovercontainerr{
+    margin-top: 23px;
+    width: 90%;
+    height: 411px;
+
+    display: flex;
+}
+.LatestHhovercontainernews{
+    margin-bottom: 2113px;
+    width: 30%;
+    height: 411px;
+
+    display: flex;
+}
+
+.LatestHhovercontainertopics{
+    margin-bottom: 2113px;
+    width: 70%;
+    height: 411px;
+  
+}
+.LatestHovernews1{
+    width: 100%;
+    height: 411px;
+
+}
+
+.LatestHovernews2{
+    width: 100%;
+    height: 190px;
+
+    display: flex;
+}
+.imgandnews{
+    width: 75%;
+}
+.imgandnews img{
+    width: 91%;
+    border-radius: 7px;
+}
+.imgandnews p{
+    margin-bottom: 5px;
+    margin-left: 1px;
+    font-size: 17px;
+    font-family: f1Bold;
+    font-size: 600;
+    color: white;
+}
+
+.LatestHovernews3{
+    width: 100%;
+    height: 140px;
+    display: flex;
+}
+.newscontant{
+    width: 80%;
+}
+.newscontant p {
+    font-size: 13px;
+    font-family: f1Bold;
+    font-size: 100;
+    color: white;
+    margin-top: 6px;
+}
+
+.newscontant h5 {
+    font-size: 6px;
+    font-family: f1Regular;
+    font-size: 100;
+    color: white;
+    margin-top:8px;
+
+}
+
+
+
+
+.topicheadline{
+    width: 100%;
+    height: 23px;
+    margin-top: 21px;
+
+}
+.topicheadline p{
+    font-size: 13px;
+    font-family: f1Bold;
+    font-size: 100;
+    color: white;
+    margin-top: 3px;
+    margin-left: 13px;
+}
+
+.LatestHhovercontainertopics {
+    display: flex;
+    flex-wrap: wrap; 
+    height: 328px;
+}
+
+.topimgs {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.topimgs  div {
+    flex: 1 0 31.32%; 
+    box-sizing: border-box; 
+
+    object-fit: cover;
+    border-radius: 11px;
+    margin: 3px;
+    position: relative;
+    
+  
+    
+}
+.imgtop{
+    width: 110px;
+    height: 111px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgtop img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: all 0.3s;
+    cursor: pointer;
+    filter: brightness(0.8);
+    
+    
+}
+.imgtop p{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: 1;
+    color: white;
+    font-family: f1Regular;
+    cursor: pointer;
+}
+.imgtop:hover p{
+    font-family: f1Bold;
+}
+.imgtop:hover img {
+    
+    transform: scale(1.2);
+    filter: brightness(1);
+
+}
+
+
+
+
+/* SCHEDULE HOVER */
+
+.ScheduleHhover {
+    display: none;
+    opacity: 0;
+    width: 100%;
+    height: 100vh;
+    background:  #000000ee;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    transition: opacity 1.5s ease;
+}
+
+.ScheduleHhovercontainer {
+    background:  #00000000;
+    width: 80%;
+    height: 81vh;
+}
+
+.ScheduleHhover.show {
+    display: flex;
+    opacity: 1;
+}
+
+
+.ScheduleHhovercontainerPages{
+    width: 100%;
+    height: 37px;
+}
+
+
+.ScheduleHhovercontainerPages ul{
+    height: 41px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.ScheduleHhovercontainerPages li{
+    list-style: none;
+    position: relative;
+    margin-left: 21px;
+    font-family: f1Regular;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+
+.ScheduleHhovercontainerPages li::after{
+    content: '';
+    position: absolute;
+    background-color: rgba(233, 3, 3, 0.849);
+    height: 3px;
+    width:0;
+    left: 0;
+    bottom: -5px;
+   
+}
+
+.ScheduleHhovercontainerPages li:hover::after{
+    width: 100%;
+    color: rgba(233, 3, 3, 0.849);
+}
+
+.ScheduledRaces{
+margin-top: 17px;
+
+width: 100%;
+height: 51vh;
+display: flex;
+
+}
+.ScheduledRaces1{
+    width: 251px;
+    height: 281px;
+
+    margin-left: 6px;
+}
+.ScheduledRaces2{
+    width: 251px;
+    margin-left: 11px;
+    height: 281px;
+}
+.Racesimg{
+    width: 100%;
+    height: 147px;
+    background: #b95d5d;
+    object-fit: cover;
+    overflow: hidden;
+    margin-top: 4px;
+    cursor: pointer;
+    filter: brightness(1);
+}
+.Racesimg img{
+    transition: all 0.3s;
+}
+.Racesdescription
+{
+    color: white;
+    margin-top: 11px;
+    font-family: f1Bold;
+    font-size: 12px;
+}
+.Racetime p{
+    color: white;
+    margin-top: 30px;
+    font-family: f1Regular;
+    font-size: 11px; 
+}
+.Racesimg:hover img{
+    transform: scale(1.1);
+    filter: brightness(1);
+}
+
+
+.ScheduledRaces1 img{
+    width: 100%;
+    object-fit: cover;
+
+    height: 100%;
+}
+.ScheduledRaces2 img{
+    width: 100%;
+    height: 100%;
+}
+.ScheduleTextLine{
+    color: white;
+    font-family: f1Bold;
+    font-size: 16px;
+
+}
+
+.Racetime1{
+    color: white;
+    margin-top: 16px;
+    font-family: f1Regular;
+    font-size: 11px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RESULTS HOVER */
+
+.ResultsHhover {
+    display: none;
+    opacity: 0;
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    transition: opacity 1.5s ease;
+}
+
+.ResultsHhovercontainer {
+
+    width: 80%;
+    height: 81vh;
+}
+
+.ResultsHhover.show {
+    display: flex;
+    opacity: 1;
+}
+
+
+.ResultsHhovercontainerPages{
+    width: 100%;
+    height: 37px;
+}
+
+
+.ResultsHhovercontainerPages ul{
+    height: 41px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.ResultsHhovercontainerPages li{
+    list-style: none;
+    position: relative;
+    margin-left: 21px;
+    font-family: f1Regular;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+
+.ResultsHhovercontainerPages li::after{
+    content: '';
+    position: absolute;
+    background-color: rgba(233, 3, 3, 0.849);
+    height: 3px;
+    width:0;
+    left: 0;
+    bottom: -5px;
+   
+}
+
+.ResultsHhovercontainerPages li:hover::after{
+    width: 100%;
+    color: rgba(233, 3, 3, 0.849);
+}
+
+
+/* DRIVER HOVER */
+
+.DriversHhover {
+    display: none;
+    opacity: 0;
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    transition: opacity 1.5s ease; 
+}
+
+.DriversHhovercontainer {
+
+    width: 80%;
+    height: 81vh;
+}
+
+.DriversHhover.show {
+    display: flex;
+    opacity: 1;
+}
+
+
+
+
+.DriversHhovercontainerPages ul{
+    height: 41px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.DriversHhovercontainerPages li{
+    list-style: none;
+    position: relative;
+    margin-left: 21px;
+    font-family: f1Regular;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+
+.DriversHhovercontainerPages li::after{
+    content: '';
+    position: absolute;
+    background-color: rgba(233, 3, 3, 0.849);
+    height: 3px;
+    width:0;
+    left: 0;
+    bottom: -5px;
+   
+}
+
+.DriversHhovercontainerPages li:hover::after{
+    width: 100%;
+    color: rgba(233, 3, 3, 0.849);
+}
+
+.Driverrs {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if they exceed container width */
+    overflow: hidden; /* Prevent content overflow */
+}
+
+.driverrre {
+    flex: 1 0 auto; 
+    margin: 5px;
+    flex-basis: calc(25% - 10px); /* Set initial width to 25% of container width */
+    max-width: calc(25% - 10px); /* Set max-width to account for margins */
+    height: 41px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+
+
+.drivercolr{
+    width: 5px;
+    height: 15px;
+    color: rgb(12, 17, 17);
+    background-color: rgb(126, 94, 53);
+    display: flex;
+    position: absolute;
+    margin-right: 161px;
+}
+.driverrre p{
+   font-family: f1Regular;
+}
+.driverrre h5{
+    font-family: f1Bold;
+    margin-left: 4px;
+}
+
+.driverrre span{
+    margin-left: 8px;
+    font-family: f1Bold;
+}
+
+
+
+
+
+
+
+
+
+
+/* TEAMS HOVER */
+
+.TeamsHhover {
+    display: none;
+    opacity: 0;
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    transition: opacity 1.5s ease; 
+}
+
+.TeamsHhovercontainer {
+    width: 80%;
+    height: 81vh;
+}
+
+.TeamsHhover.show {
+    display: flex;
+    opacity: 1;
+}
+
+
+.TeamsHhovercontainerPages ul{
+    height: 41px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.TeamsHhovercontainerPages li{
+    list-style: none;
+    position: relative;
+    margin-left: 21px;
+    font-family: f1Regular;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+
+.TeamsHhovercontainerPages li::after{
+    content: '';
+    position: absolute;
+    background-color: rgba(233, 3, 3, 0.849);
+    height: 3px;
+    width:0;
+    left: 0;
+    bottom: -5px;
+   
+}
+
+.TeamsHhovercontainerPages li:hover::after{
+    width: 100%;
+    color: rgba(233, 3, 3, 0.849);
+}
+
+
+
+.Teamscontainer {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if they exceed container width */
+    overflow: hidden; /* Prevent content overflow */
+}
+.Teamscontainer {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if they exceed container width */
+    overflow: hidden; /* Prevent content overflow */
+}
+
+.Teammm {
+    position: relative;
+    flex: 1 0 auto;
+    margin: 5px;
+    flex-basis: calc(25% - 10px);
+    max-width: calc(25% - 10px);
+    height: 101px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.Teammm img {
+    width: 100%;
+    margin-top: 41px;
+    height: auto; /* Ensure the image maintains its aspect ratio */
+}
+
+.TeamName {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px; /* Adjust padding as needed */
+    color: white;
+
+    display: flex;
+}
+
+.TeamName p {
+    margin: 0;
+    font-family: f1Regular;
+    font-size: 13px;
+}
+
+.TeamName span {
+margin-left: 151px;
+font-family: f1Regular;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* GAMING HOVER */
+.GamingHhover {
+    display: none;
+    opacity: 0;
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    transition: opacity 1.5s ease;
+}
+
+.GamingHhovercontainer {
+    width: 80%;
+    height: 81vh;
+}
+
+.GamingHhover.show {
+    display: flex;
+    opacity: 1;
+}
+
+
+
+
+.GamingHhovercontainerPages ul{
+    height: 41px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.GamingHhovercontainerPages li{
+    list-style: none;
+    position: relative;
+    margin-left: 21px;
+    font-family: f1Regular;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+
+.GamingHhovercontainerPages li::after{
+    content: '';
+    position: absolute;
+    background-color: rgba(233, 3, 3, 0.849);
+    height: 3px;
+    width:0;
+    left: 0;
+    bottom: -5px;
+   
+}
+
+.GamingHhovercontainerPages li:hover::after{
+    width: 100%;
+    color: rgba(233, 3, 3, 0.849);
+}
+
+
+
+
+
+.MainPageContainer{
+    width: 100%;
+    height: 311vh;
+}
+.featureNewsContainer{
+    width: 100%;
+    height: 97vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 9.6%;
+}
+.featureNewsContainer1{
+    width: 80%;
+    height: 97vh;
+    display: flex;
+
+}
+.Featuress{
+    background: #ff0000;
+    width: 48%;
+    height: 84.6vh;
+    margin-top: 68px;
+    border-top-right-radius: 61px; /* Adjust as needed */
+    cursor: pointer;
+
+
+}
+.Featuress1{
+    background: #ffffff;
+    width: 98.2%;
+    height: 83vh;
+    border-top-right-radius: 58px; /* Adjust as needed */
+    margin-top: 10px;
+    cursor: pointer;
+}
+.HeadlineFeature p{
+    width: 100%;
+    padding: 11px 0px 0px;
+    top: 171px;
+    font-size: 11px;
+    font-family: f1Regular;
+    color: red;
+}
+.Featurnewwss p{
+    font-size: 32px;
+    margin-top: 8px;
+    font-family: f1Bold;
+    color: #000;
+}
+.Featurnewwss a {
+    text-decoration: none;
+    color: #000;
+}
+
+.Featuress1:hover a {
+    text-decoration: underline; 
+}
+.Featuress1:hover img {
+    transform: scale(1.1);
+}
+.featurimg img{
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.3s;
+}
+.featurimg{
+    margin-top: 11px;
+    width: 95%;
+    height: 40vh;
+    overflow: hidden;
+}
+
+
+.FeaturesNews{
+    width: 50%;
+    height: 97vh;
+    overflow: auto;
+}
+.FeaturesNews::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar */
+}
+
+
+.FeaturesNews1 {
+    width: 100%;
+    height: 97vh;
+    margin-top: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Add this to space the items evenly */
+}
+
+.newss {
+    margin-top: 11px;
+    margin-left: 8px;
+    width: calc(46% - 1px); /* Adjust width to 50% minus margin */
+    height: 281px;
+    margin-bottom: 5px; /* Add margin between rows */
+    background-color: #b4adadbd;
+    border-bottom-right-radius: 41px;
+    cursor: pointer;
+
+}
+.newssimg img{
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.3s;
+}
+
+
+.newssimg{
+    background-color: #858080;
+    width: 100%;
+    height: 131px;
+    overflow: hidden;
+}
+.newssfeaturees{
+    width: 100%;
+    height: 100%;
+
+}
+.newssfeaturees1{
+    border-bottom-right-radius: 40px;
+    background-color: rgb(253, 253, 253);
+    width: 99.6%;
+    height: 53.1%;
+
+}
+
+.newss:hover {
+    background-color: #ff0101;
+}
+.newss:hover img{
+    transform: scale(1.1);
+}
+.newssfeaturees h5{
+    color: #f11313;
+    padding-top: 15px;
+    font-family: f1Regular;
+    font-size: 9px;
+}
+.newssfeaturees p{
+    padding-top: 5px;
+    font-family: f1Regular;
+    font-size: 13px;
+}
+
+.btnn{
+    margin-top: 11px;
+    width: 180px;
+    height: 47px;
+    background: red;
+    margin-left: 10px;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    border: 2px solid #ff0000;
+    font-family: f1Regular;
+    font-size: 11px;
+    color: white;
+    cursor: pointer;
+}
+.btnn span{
+    margin-left: 11px;
+    font-family: f1Bold;
+}
+.btnn:hover{
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.watchNowMainContainer{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.watchNowContainer{
+    width: 80%;
+    height: 65vh;
+    background-color: #4b1287;
+    border-top-right-radius: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 41px;
+}
+.watchContainer{
+    width: 99%;
+    height: 61vh;
+    background-color: #ffffff;
+    border-top-right-radius: 31px;
+    margin-right: 10px;
+    margin-top: 1px;
+    border-bottom-right-radius: 31px;
+}
+.watchContainer2{
+    width: 98%;
+    height: 55vh;
+    background-color: #994444;
+    border-top-right-radius: 11px;
+    margin-right: 15px;
+    margin-top: 15px;
+    border-bottom-right-radius: 11px;
+    display: flex;
+}
+
+.watchcontainertext{
+    width: 50%;
+    height: 55vh;
+    background-color: #4b1287;
+}
+.watchcontainerimg{
+    width: 50%;
+    border-bottom-right-radius: 11px;
+    border-top-right-radius: 11px;
+    height: 55vh;     
+
+}
+.watchcontainerimg img{
+width: 100%;
+border-bottom-right-radius: 11px;
+border-top-right-radius: 11px;
+height: 100%;
+
+}
+.watchhnowbtn{
+    width: 111px;
+    height: 41px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6%;
+    margin-top: 11px;
+    margin-left: 19px;
+    font-family: f1Regular;
+    font-size: 11px;
+}
+
+.watchcontainertext h4{
+font-family: f1Bold;
+color: white;
+font-size: 35px;
+margin-left: 19px;
+margin-top: 21px;
+
+}
+.watchcontainertext p{
+font-family: f1Regular;
+color: white;
+font-size: 13px;
+margin-left: 19px;
+margin-top: 11px;
+
+}
+
+.editorsPickMainContainer{
+    width: 100%;
+    height:110vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.editorsPickContainer{
+    width: 80%;
+    height: 100vh;
+    background-color: #f11313;
+    border-bottom-right-radius: 41px;
+    border-top-right-radius: 41px;
+    display: flex;
+}
+.editorsPick{
+    width: 98.9%;
+    height: 96%;
+    background-color: #ffffff;
+    margin-top: 11px;
+    border-bottom-right-radius: 31px;
+    border-top-right-radius: 31px;
+}
+.editorsPickLeft{
+    width: 22%;
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    margin-top: -32px;
+}
+.editorsPickLeft p{
+    font-family: f1Bold;
+    font-size: 25px;
+    margin-top: 11px;
+}
+.editorsPickRight{
+    width: 45%;
+    height: 96.1vh;
+    margin-top: -497.6px;
+    margin-left: 550px;
+    border-bottom-right-radius: 31px;
+    border-top-right-radius: 31px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.editorsPickRightnews1{
+    margin-top: 45px;
+    margin-left: 5px;
+    margin-right: 12px;
+    width: 46%; 
+    height: 270px;
+    background-color: #858080;
+    color: white;
+    border-bottom-right-radius: 31px;
+    cursor: pointer;
+}
+
+.editorsPickRightnews2{
+    margin-left: 9px;
+    margin-right: 15px;
+    width: 44%; 
+    height: 170px;
+    background-color: #858080;
+    margin-left: 11px;
+    color: white; 
+    border-bottom-right-radius: 31px;
+    cursor: pointer;
+}
+.editorsPicknewimg{
+    width: 100%;
+    height: 45%;
+    background: #000;
+    overflow: hidden;
+}
+.editorsPicknewimg img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s;
+}
+.editorsPickRightnews1:hover img{
+    transform: scale(1.1);
+}
+.editorsPickRightContants{
+    width: 99.5%;
+    height: 26.8vh;
+    background-color: #fcfcfc;
+    border-bottom-right-radius: 30px;
+    color: #000;
+}
+.editorsPickRightContants h5{
+    font-family: f1Regular;
+    font-size: 9px;
+    padding-top: 15px;
+    margin-left: 15px;
+    color: #fb0000;
+}
+.editorsPickRightContants p{
+    font-family: f1Regular;
+    font-size: 13px;
+    padding-top: 9px;
+    margin-left: 15px;
+}
+
+
+
+.editorsPickRightnews1:hover {
+background-color: #fb0000;
+}
+.editorsPickRightnews2:hover {
+background-color: #fb0000;
+}
+
+
+.editorspickbottomnews{
+    width: 99.6%;
+    background-color: #ffffff;
+    border-bottom-right-radius: 30px;
+    height: 99.5%;
+}
+
+.editorspickbottomnews h5{
+    font-family: f1Regular;
+    font-size: 9px;
+    padding-top: 15px;
+    margin-left: 15px;
+    color: #fb0000;
+}
+
+.editorspickbottomnews p{
+    font-family: f1Regular;
+    font-size: 13px;
+    padding-top: 9px;
+    margin-left: 15px;
+    color: black;
+}
