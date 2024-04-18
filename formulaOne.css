@@ -20,7 +20,7 @@
 
 .Container{
 background-color: rgb(255, 255, 255);
-height: 611vh;
+height: 811vh;
 width: 100%;
 
 }
@@ -1514,4 +1514,253 @@ justify-content: center;
     background-color: black;
     color: white;
 
+}
+
+.raceTimessMainContainer{
+    width: 100%;
+    height: 111vh;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #15151E;
+}
+.raceTimess{
+    width: 15%;
+    height: 94%;
+    background-color: #565660;
+    margin-left: 5px;
+    display: flex;
+    transition: all 0.2s;
+    border-bottom-right-radius: 21px;
+
+
+}
+.raceTimess:hover{
+    width: 70%;
+}
+
+.raceTimess:hover .raceTimeCountryimgContainer{
+    margin-top:25px;
+    
+}
+.raceTimess:hover .raceTimeCountryimg{
+     width: 10%;
+    height: 55%;
+}
+.raceTimeCountryimgContainer{
+    width: 100%;
+    height: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 155px;
+    transition: all 0.3s;
+}
+.raceTimeCountryimg{
+    width: 25%;
+    height: 50%;
+    object-fit: cover;
+}
+.raceTimeCountryimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 11px;
+}
+.raceTimeCountryName{
+    font-family: f1Bold;
+    color: rgba(255, 255, 255, 0.742);
+    width: 100%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}
+
+.raceTimess2{
+    background-color: #15151E;
+    width: 99.7%;
+    height: 99.8%;
+    border-bottom-right-radius: 21px;
+    cursor: pointer;
+}
+.raceDate {
+    width: 100%;
+    height: 11vh;
+    transition: all .3s ease-in-out;
+}
+
+.raceTimess:hover .raceDate {
+    transform: translateY(340%);
+    opacity: 0;
+    transition: all .3s ease-in-out;
+}
+
+
+.raceDate1 {
+    display: flex; 
+    width: 100%;
+    height: 9vh;
+    align-items: center;
+    justify-content: center;
+    font-family: f1Bold;
+    color: white;
+    font-size: 29px;
+}
+
+.raceMonth{
+    display: flex; 
+    width: 100%;
+    height: 4vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-family: f1Bold;
+    color: white;
+
+}
+
+
+.raceTimess:hover .raceTimeTitle{
+    display: flex;
+
+}
+.raceTimess:hover .racedateee{
+    display: flex;
+
+}
+.raceTimeTitle{
+    display: none;
+    width: 100%;
+    height: 13vh;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: f1Bold;
+    font-size: 18px;
+}
+
+.racedateee {
+    width: 100%;
+    height: 5vh;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  color: rgb(156, 147, 147);
+  font-family: f1Regular;
+  font-size: 12px;
+}
+
+.racerolextime{
+    margin-top: 21px;
+    width: 100%;
+    height: 20vh;
+    background-color: #006341;
+    border-radius: 16px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.raceTimess:hover .racerolextime{
+    display: flex;
+
+}
+
+
+.racerolextime img{
+    width: 13%;
+    margin-right: 51px;
+}
+.rolexlivetime{
+    width: 20%;
+    height: 111px;
+}
+.rolexlivetime1{
+    width: 100%;
+    height:50%;
+   font-size: 11px;
+   font-family: f1Bold;
+   padding-top: 15px;
+   padding-left: 29px;
+   color: rgba(255, 255, 255, 0.74);
+   
+}
+
+.raceTimess:hover .racetimeCalender{
+    display: flex;
+
+}
+.synccalendartitles{
+    width:65%;
+    display: flex;
+}
+.rolexlivetime2{
+    width: 100%;
+    height:50%;
+    font-size: 11px;
+    font-family: f1Bold;
+    padding-top: 15px;
+    padding-left: 29px;
+    color: rgba(255, 255, 255, 0.74);
+}
+.racetimeCalender{
+    width: 100%;
+    height: 185px;
+    margin-top: -49px;
+    display: none;
+}
+.racetimeCalender1{
+    width: 49%;
+    height: 100%;
+}
+
+.synccalendar1{
+    width: 98%;
+    height: 8vh;
+    margin-left: 3px;
+    display: flex;
+    font-family: f1Bold;
+    margin-top: 2px;
+    align-items: center;
+    color: white;
+}
+.synccalendar1 h2{
+    margin-left: 20px;
+    font-size: 12px;
+
+}
+.synccalendar1 h3{
+    margin-left: 15px;
+    font-size: 11px;
+
+}
+.racetimeDuration{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 9px;
+    width: 30%;
+    height: 15px;
+    background-color: #ffffff71;
+    border-radius: 11px;
+    font-family: f1Regular;
+}
+.racetimesynccalendar{
+    width: 99%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 13px;
+    font-family: f1Regular;
+    font-size: 12px;
+    border: 1.5px solid rgba(255, 255, 255, 0.801);
+    color: rgba(255, 255, 255, 0.858);
+    cursor: pointer;
+}
+.racetimesynccalendar:hover{
+    border: 1.9px solid rgb(255, 255, 255);
+    color: white;
 }
