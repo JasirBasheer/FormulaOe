@@ -20,7 +20,7 @@
 
 .Container{
 background-color: rgb(255, 255, 255);
-height: 1211vh;
+height: 1041vh;
 width: 100%;
 
 }
@@ -774,15 +774,15 @@ display: flex;
 
 .Driverrs {
     display: flex;
-    flex-wrap: wrap; /* Allow items to wrap to the next line if they exceed container width */
-    overflow: hidden; /* Prevent content overflow */
+    flex-wrap: wrap; 
+    overflow: hidden;
 }
 
 .driverrre {
     flex: 1 0 auto; 
     margin: 5px;
-    flex-basis: calc(25% - 10px); /* Set initial width to 25% of container width */
-    max-width: calc(25% - 10px); /* Set max-width to account for margins */
+    flex-basis: calc(25% - 10px); 
+    max-width: calc(25% - 10px); 
     height: 41px;
     align-items: center;
     justify-content: center;
@@ -890,13 +890,13 @@ display: flex;
 
 .Teamscontainer {
     display: flex;
-    flex-wrap: wrap; /* Allow items to wrap to the next line if they exceed container width */
-    overflow: hidden; /* Prevent content overflow */
+    flex-wrap: wrap; 
+    overflow: hidden;
 }
 .Teamscontainer {
     display: flex;
-    flex-wrap: wrap; /* Allow items to wrap to the next line if they exceed container width */
-    overflow: hidden; /* Prevent content overflow */
+    flex-wrap: wrap;
+    overflow: hidden;
 }
 
 .Teammm {
@@ -916,7 +916,7 @@ display: flex;
 .Teammm img {
     width: 100%;
     margin-top: 41px;
-    height: auto; /* Ensure the image maintains its aspect ratio */
+    height: auto; 
 }
 
 .TeamName {
@@ -924,7 +924,7 @@ display: flex;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 10px; /* Adjust padding as needed */
+    padding: 10px; 
     color: white;
 
     display: flex;
@@ -1044,7 +1044,7 @@ font-family: f1Regular;
     width: 48%;
     height: 84.6vh;
     margin-top: 68px;
-    border-top-right-radius: 31px; /* Adjust as needed */
+    border-top-right-radius: 31px; 
     cursor: pointer;
 
 
@@ -1053,7 +1053,7 @@ font-family: f1Regular;
     background: #ffffff;
     width: 98.2%;
     height: 83vh;
-    border-top-right-radius: 29px; /* Adjust as needed */
+    border-top-right-radius: 29px; 
     margin-top: 10px;
     cursor: pointer;
 }
@@ -1101,7 +1101,7 @@ font-family: f1Regular;
     overflow: auto;
 }
 .FeaturesNews::-webkit-scrollbar {
-    display: none; /* Hide the scrollbar */
+    display: none;
 }
 
 
@@ -1111,15 +1111,15 @@ font-family: f1Regular;
     margin-top: 65px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; /* Add this to space the items evenly */
+    justify-content: space-between; 
 }
 
 .newss {
     margin-top: 11px;
     margin-left: 8px;
-    width: calc(46% - 1px); /* Adjust width to 50% minus margin */
+    width: calc(46% - 1px);
     height: 281px;
-    margin-bottom: 5px; /* Add margin between rows */
+    margin-bottom: 5px; 
     background-color: #b4adadbd;
     border-bottom-right-radius: 41px;
     cursor: pointer;
@@ -2199,7 +2199,7 @@ justify-content: center;
     justify-content: center;
     color: white;
     font-family: f1Bold;
-    font-size: 19px;
+    font-size: 26px;
 
 }
 .exploreF1TopicsContainer2{
@@ -2212,7 +2212,7 @@ justify-content: center;
 }
 
 .exploreF1Topiccss{
-    width: 40%;
+    width: 45%;
     height: 45%;
     margin-left: 14px;
     margin-top: 11px;
@@ -2240,7 +2240,7 @@ justify-content: center;
 .exploreF1Topiccsstitle {
     display: flex;
     margin-top: -123px;
-    margin-left: 134px;
+    margin-left: 174px;
     font-family: f1Bold;
     position: relative;
     color: rgba(255, 255, 255, 0.884);
@@ -2331,5 +2331,138 @@ justify-content: center;
     width: 49%;
     margin-top: 8px;
     margin-left: 10px;
+
+}
+.footerMainContainer{
+    width: 100%;
+    height: 141vh;
+    background: #15151E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerContainer{
+    width: 70%;
+    height: 85%;
+}
+.footerPatners{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #15151E;
+}
+.footerPatners img{
+    width: 10%;
+}
+.footerPatners p{
+    font-family: f1Bold;
+    font-size: 18px;
+    color: white;
+}
+.footerContiner1{
+    width: 100%;
+    height: 68vh;
+    background-color: #38383F;
+    border-bottom-right-radius: 31px;
+    display: flex;
+}
+.footerContiner2{
+    width: 99%;
+    height: 97.4%;
+    background-color: #15151E;
+    border-bottom-right-radius: 31px;
+    display: flex;
+}
+.footerinnerContainer{
+    width: 20%;
+    height: 100%;
+    margin-left: 2px;
+    border-bottom-right-radius: 31px;
+
+}
+.hoverrr {
+    margin-top: 11px;
+    color: white;
+    font-family: f1Regular;
+    font-weight: 100;
+    font-size: 13px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent; 
+    transition: border-bottom-color 0.3s ease; 
+}
+.hoverrr:hover {
+    border-bottom-color: rgba(255, 0, 0, 0.703); 
+}
+
+
+
+.footerMainelementsContainer{
+    width: 100%;
+    height: 22vh;
+}
+
+
+.footerElements{
+    width: 80%;
+    height: 100%;
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hoverrr1 {
+    color: rgb(255, 255, 255);
+    font-family: f1Regular;
+    font-weight: 100;
+    font-size: 9px;
+    height: 19px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent; 
+    transition: border-bottom-color 0.3s ease; 
+}
+.hoverrr1:hover {
+    border-bottom-color: rgba(255, 0, 0, 0.703); 
+}
+
+.hoverrr1 {
+    margin-left: 11px;
+}
+
+.hrline{
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.703);
+
+}
+.footercopyright{
+    width: 100%;
+    display: flex;
+    height: 11vh;
+
+}
+.copyrightleft{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.copyrightleft img{
+    width: 20%;
+    margin-left: 15px;
+}
+.copyrightRight{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    color: white;
+}
+.copyrightRight p{
+font-family: f1Regular;
+font-size: 7px;
 
 }
