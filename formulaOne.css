@@ -2251,7 +2251,7 @@ justify-content: center;
 
 .exploreF1Topiccsstitle {
     display: flex;
-    margin-top: -123px;
+    margin-top: -26%;
     margin-left: 40%;
     font-family: f1Bold;
     position: relative;
@@ -2260,7 +2260,7 @@ justify-content: center;
 .explorehoverefx{
     width: 100%;
     height: 13px;
-    margin-top: 15%;
+    margin-top: 19%;
     color: #000;
     background-image: url(assests/gray3-x1.png);
     position: relative;
