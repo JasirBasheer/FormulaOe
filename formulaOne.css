@@ -33,7 +33,7 @@ width: 100%;
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1000;
+    z-index: 9000;
 
 }
 
@@ -193,7 +193,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 
-z-index: 1000; 
+z-index: 9000; 
 
 
 }
@@ -207,7 +207,7 @@ z-index: 1000;
     border-top-color: #E10600;
     position: absolute;
     transform: rotate(180deg);
-    left: calc(50% - 515px);
+    left: calc(50% - 42%);
     bottom: 68px;
 }
 
@@ -257,6 +257,8 @@ z-index: 1000;
     justify-content: center;
     position: fixed;
     transition: opacity 1.5s ease;
+   margin-top: -3%;
+    z-index: 1000;
 }
 
 .LatestHhovercontainer {
@@ -484,6 +486,8 @@ z-index: 1000;
     justify-content: center;
     position: fixed;
     transition: opacity 1.5s ease;
+    margin-top: -3%;
+    z-index: 1000;
 }
 
 .ScheduleHhovercontainer {
@@ -651,6 +655,8 @@ display: flex;
     justify-content: center;
     position: fixed;
     transition: opacity 1.5s ease;
+    margin-top: -3%;
+    z-index: 1000;
 }
 
 .ResultsHhovercontainer {
@@ -720,6 +726,8 @@ display: flex;
     justify-content: center;
     position: fixed;
     transition: opacity 1.5s ease; 
+    margin-top: -3%;
+    z-index: 1000;
 }
 
 .DriversHhovercontainer {
@@ -836,7 +844,9 @@ display: flex;
     align-items: center;
     justify-content: center;
     position: fixed;
-    transition: opacity 1.5s ease; 
+    transition: opacity 1.5s ease;
+    margin-top: -3%;
+    z-index: 1000;
 }
 
 .TeamsHhovercontainer {
@@ -966,6 +976,8 @@ font-family: f1Regular;
     justify-content: center;
     position: fixed;
     transition: opacity 1.5s ease;
+    margin-top: -3%;
+    z-index: 1000;
 }
 
 .GamingHhovercontainer {
@@ -1052,7 +1064,7 @@ font-family: f1Regular;
 .Featuress1{
     background: #ffffff;
     width: 98.2%;
-    height: 83vh;
+    height: 84vh;
     border-top-right-radius: 29px; 
     margin-top: 10px;
     cursor: pointer;
@@ -1212,7 +1224,7 @@ font-family: f1Regular;
     border-bottom-right-radius: 41px;
 }
 .watchContainer{
-    width: 99%;
+    width: 99.2%;
     height: 61vh;
     background-color: #ffffff;
     border-top-right-radius: 31px;
@@ -1322,8 +1334,8 @@ margin-top: 11px;
 .editorsPickRight{
     width: 45%;
     height: 96.1vh;
-    margin-top: -497.6px;
-    margin-left: 550px;
+    margin-top: -50%;
+    margin-left: 53%;
     border-bottom-right-radius: 31px;
     border-top-right-radius: 31px;
     display: flex;
@@ -1369,8 +1381,8 @@ margin-top: 11px;
     transform: scale(1.1);
 }
 .editorsPickRightContants{
-    width: 99.5%;
-    height: 26.8vh;
+    width: 99.6%;
+    height: 54.7%;
     background-color: #fcfcfc;
     border-bottom-right-radius: 30px;
     color: #000;
@@ -2045,7 +2057,7 @@ justify-content: center;
     justify-content: center;
 }
 .f1Subscribtion1{
-    width: 310px;
+    width: 23%;
     height: 88%;
     background-color: #15151E;
     margin-left: 21px;
@@ -2059,7 +2071,7 @@ justify-content: center;
     border-bottom-left-radius: 11px;
 }
 .f1Subscribtion2{
-    width: 310px;
+    width: 26%;
     height: 90%;
     background-color: #15151E;
     margin-left: 21px;
@@ -2071,8 +2083,8 @@ justify-content: center;
     cursor: pointer;
 }
 .f1Subscribtion3{
-    width: 310px;
-    height: 90%;
+    width: 22%;
+    height: 89%;
     background-color: #15151E;
     margin-left: 21px;
     background-image: url(assests/subscription3.jpg);
@@ -2240,7 +2252,7 @@ justify-content: center;
 .exploreF1Topiccsstitle {
     display: flex;
     margin-top: -123px;
-    margin-left: 174px;
+    margin-left: 40%;
     font-family: f1Bold;
     position: relative;
     color: rgba(255, 255, 255, 0.884);
@@ -2248,7 +2260,7 @@ justify-content: center;
 .explorehoverefx{
     width: 100%;
     height: 13px;
-    margin-top: 85px;
+    margin-top: 15%;
     color: #000;
     background-image: url(assests/gray3-x1.png);
     position: relative;
